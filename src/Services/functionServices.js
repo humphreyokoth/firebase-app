@@ -1,6 +1,6 @@
 
 import { collection, addDoc } from "firebase/firestore"; 
-
+import { db } from "../Config/firebaseConfig";
 export async function postData(data){
     try {
         const docRef = await addDoc(collection(db, "todo"),data);
