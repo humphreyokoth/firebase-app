@@ -1,10 +1,4 @@
-import React from 'react'
 
-export default function NoPage() {
-  return (
-    <div>NoPage</div>
-  )
-}
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -113,3 +107,12 @@ export default function LoginForm() {
     </form>
   );
 }
+
+
+// import React from 'react'
+
+// export default function NoPage() {
+//   return (
+//     <div>NoPage</div>
+//   )
+// }
